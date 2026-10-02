@@ -1,0 +1,21 @@
+{
+  "commands": [
+    {
+      "child_system_seconds": 0.071806,
+      "child_user_seconds": 1.030778,
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "src/campaigns.py",
+        "sensitivity",
+        "--output",
+        "/tmp/freshness-sensitivity-gdjm5q85/results"
+      ],
+      "max_rss_kib": 94500,
+      "stderr": "",
+      "stdout": "{\n  \"coverage_points\": 13,\n  \"cpu_seconds\": 0.099985,\n  \"noise_points\": 17,\n  \"wall_seconds\": 0.100068\n}\n",
+      "wall_seconds": 0.719728
+    }
+  ],
+  "group": "sensitivity",
+  "status": "pass"
+}
